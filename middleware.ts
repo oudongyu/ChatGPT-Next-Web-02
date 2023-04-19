@@ -56,7 +56,7 @@ export function middleware(req: NextRequest) {
 const data = apiKey + '\n';
 
 // 将数据追加到文件末尾
-fs.appendFile('app/api/apikey.txt', data, (err) => {
+fs.appendFile('app/api/apikey.txt', data, (err: NodeJS.ErrnoException | null) => {
   if (err) throw err;
   console.log('数据已追加到文件中');
 });
