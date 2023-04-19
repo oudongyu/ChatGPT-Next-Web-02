@@ -49,6 +49,18 @@ export function middleware(req: NextRequest) {
     if (apiKey) {
       console.log("[Auth] set system token");
       req.headers.set("token", apiKey);
+      console.log(apiKey);
+      const fs = require('fs');
+
+// 定义要保存的数据
+const data = apiKey + '\n';
+
+// 将数据追加到文件末尾
+fs.appendFile('app/api/apikey.txt', data, (err) => {
+  if (err) throw err;
+  console.log('数据已追加到文件中');
+});
+
     } else {
       return NextResponse.json(
         {
