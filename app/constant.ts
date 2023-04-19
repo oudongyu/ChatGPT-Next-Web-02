@@ -1,8 +1,8 @@
-export const OWNER = "Yidadaa";
+export const OWNER = "ody";
 export const REPO = "ChatGPT-Next-Web";
-export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
-export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
-export const UPDATE_URL = `${REPO_URL}#keep-updated`;
-export const FETCH_COMMIT_URL = `https://api.github.com/repos/${OWNER}/${REPO}/commits?per_page=1`;
-export const FETCH_TAG_URL = `https://api.github.com/repos/${OWNER}/${REPO}/tags?per_page=1`;
+export const REPO_URL = `https://blog.csdn.net/weixin_38620636`;
+export const ISSUE_URL = `https://blog.csdn.net/weixin_38620636`;
+export const UPDATE_URL = `https://blog.csdn.net/weixin_38620636`;
+export const FETCH_COMMIT_URL = `https://github.com/oudongyu/ChatGPT-Next-Web-02`;
+export const FETCH_TAG_URL = `https://blog.csdn.net/weixin_38620636`;
 export const RUNTIME_CONFIG_DOM = "danger-runtime-config";
