@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "现在是未授权状态，请点击左下角设置按钮输入自己的apikey直接使用，或者获取密码",
+      "现在是未授权状态，请点击左下角设置按钮输入自己的apikey直接使用。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
